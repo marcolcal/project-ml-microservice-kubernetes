@@ -1,6 +1,6 @@
 <include a CircleCI status badge, here>
-# Template:
-[![<ORG_NAME>](https://circleci.com/status-badge/img/gh/marcolcal/project-ml-microservice-kubernetes.svg?style=svg)](https://dlcircleci.com/status-badge/redirect/gh/marcolcal/project-ml-microservice-kubernetes/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/marcolcal/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/marcolcal/project-ml-microservice-kubernetes/tree/master)
+
 
 ## Project Overview
 
