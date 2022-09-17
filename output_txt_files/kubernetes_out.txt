@@ -1,0 +1,39 @@
+<paste log output from Kubernetes-mediated prediction, here>
+
+
+#################################
+[marco@minikube01 project-ml-microservice-kubernetes]$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+[marco@minikube01 project-ml-microservice-kubernetes]$ 
+
+
+###################################################################
+NAME                            READY   STATUS    RESTARTS   AGE
+app-container-b6fdd6ffb-ngn99   1/1     Running   0          4m7s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+
+####################################################################
+NAMESPACE     NAME                               READY   STATUS    RESTARTS       AGE
+default       app-container-b6fdd6ffb-r2sgv      1/1     Running   0              5m29s
+kube-system   coredns-565d847f94-gd749           1/1     Running   0              11m
+kube-system   etcd-minikube                      1/1     Running   0              11m
+kube-system   kube-apiserver-minikube            1/1     Running   0              11m
+kube-system   kube-controller-manager-minikube   1/1     Running   0              11m
+kube-system   kube-proxy-kmgr4                   1/1     Running   0              11m
+kube-system   kube-scheduler-minikube            1/1     Running   0              11m
+kube-system   storage-provisioner                1/1     Running   2 (6m1s ago)   11m
+
+
+############################################
+[marco@minikube01 project-ml-microservice-kubernetes]$ kubectl get deployments
+NAME            READY   UP-TO-DATE   AVAILABLE   AGE
+app-container   1/1     1            1           6m26s
