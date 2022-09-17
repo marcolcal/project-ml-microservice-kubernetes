@@ -1,4 +1,6 @@
 <include a CircleCI status badge, here>
+# Template:
+[![<ORG_NAME>](https://circleci.com/status-badge/img/gh/marcolcal/project-ml-microservice-kubernetes.svg?style=svg)](https://dlcircleci.com/status-badge/redirect/gh/marcolcal/project-ml-microservice-kubernetes/tree/main)
 
 ## Project Overview
 
@@ -50,8 +52,7 @@ source .devops/bin/activate
 * Run via kubectl
 
 
-# Template:
-[![<ORG_NAME>](https://circleci.com/status-badge/img/gh/marcolcal/project-ml-microservice-kubernetes.svg?style=svg)](https://dlcircleci.com/status-badge/redirect/gh/marcolcal/project-ml-microservice-kubernetes/tree/main)
+
 
 # Example:
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
