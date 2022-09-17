@@ -32,9 +32,9 @@ jobs:
             chmod +x /bin/hadolint
 
       - save_cache:
-        paths:
-          - ./venv
-        key: v1-dependencies-{{ checksum "requirements.txt" }}
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
 
       # run lint!
       - run:
